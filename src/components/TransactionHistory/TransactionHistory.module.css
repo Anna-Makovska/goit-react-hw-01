@@ -1,0 +1,39 @@
+/* .headline {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-left: 30px;
+
+}
+.table {
+    width: 500px;
+    margin-top: 40px;
+}
+.props {
+text-align: center;
+} */
+ table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    margin-top: 40px;
+
+}  
+
+th, td {  
+    border: 1px solid #000;  
+    padding: 10px;  
+    text-align: center;  
+}  
+
+thead {  
+    background-color: #333;  
+    color: white;  
+}  
+
+tbody tr:nth-child(even) {  
+    background-color: #f2f2f2;  
+}  
+
+tbody tr:nth-child(odd) {  
+    background-color: #ffffff;  
+}  
